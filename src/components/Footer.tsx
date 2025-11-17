@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <img src="/image.png" alt="Alug Mack" className="h-12 w-auto" />
+              <img src={`${import.meta.env.BASE_URL}image.png`} alt="Alug Mack" className="h-12 w-auto" />
             </div>
             <p className="text-slate-400 leading-relaxed">
               Especialistas em locação de tendas e grades de proteção para eventos, oferecendo segurança e qualidade para seu evento.

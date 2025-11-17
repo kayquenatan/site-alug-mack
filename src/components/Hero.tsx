@@ -8,7 +8,7 @@ export default function Hero() {
       <nav className="relative z-10 container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <img src="/image.png" alt="Alug Mack" className="h-12 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}image.png`} alt="Alug Mack" className="h-12 w-auto" />
           </div>
           <a
             href="#contato"

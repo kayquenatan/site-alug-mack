@@ -4,73 +4,73 @@ import { X } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    url: '/grades/grades01.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/grades01.jpeg`,
     title: 'Armazenamento de Grades',
     description: 'Estrutura profissional com centenas de grades em estoque'
   },
   {
     id: 2,
-    url: '/grades/grades03.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/grades03.jpeg`,
     title: 'Controle de Fluxo em Estabelecimento',
     description: 'Grades estruturando área de acesso em estacionamento'
   },
   {
     id: 3,
-    url: '/grades/grades04.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/grades04.jpeg`,
     title: 'Proteção em Espaço Público',
     description: 'Grades organizando fluxo de pessoas em eventos'
   },
   {
     id: 4,
-    url: '/grades/grades05.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/grades05.jpeg`,
     title: 'Barreira de Proteção',
     description: 'Grades metálicas formando perímetro de segurança'
   },
   {
     id: 5,
-    url: '/grades/grades02.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/grades02.jpeg`,
     title: 'Controle em Evento Interno',
     description: 'Grades controlando fluxo em ambiente coberto'
   },
   {
     id: 6,
-    url: '/grades/unifila01.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/unifila01.jpeg`,
     title: 'Organização de Filas em Eventos',
     description: 'Unifilas profissionais para controle de fluxo em corredores'
   },
   {
     id: 7,
-    url: '/grades/unifila02.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/unifila02.jpeg`,
     title: 'Gestão de Eventos Noturnos',
     description: 'Centenas de unifilas organizando grandes eventos externos'
   },
   {
     id: 8,
-    url: '/grades/unifila03.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/unifila03.jpeg`,
     title: 'Controle de Acesso',
     description: 'Unifilas estruturando áreas de circulação e segurança'
   },
   {
     id: 9,
-    url: '/grades/unifila04.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/unifila04.jpeg`,
     title: 'Equipamentos de Controle de Fluxo',
     description: 'Unifilas e grades prontas para organização de eventos'
   },
   {
     id: 10,
-    url: '/grades/lixo01.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/lixo01.jpeg`,
     title: 'Contêineres e Estruturas Metálicas',
     description: 'Equipamentos resistentes para organização e armazenamento'
   },
   {
     id: 11,
-    url: '/grades/lixo02.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/lixo02.jpeg`,
     title: 'Estruturas para Eventos',
     description: 'Grades e estruturas metálicas para diversos tipos de eventos'
   },
   {
     id: 12,
-    url: '/grades/outros01.jpeg',
+    url: `${import.meta.env.BASE_URL}grades/outros01.jpeg`,
     title: 'Outros',
     description: 'Banheiros químicos para eventos de todos os tamanhos'
   }
