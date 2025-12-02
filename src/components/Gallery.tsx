@@ -73,6 +73,54 @@ const galleryImages = [
     url: `${import.meta.env.BASE_URL}grades/outros01.jpeg`,
     title: 'Outros',
     description: 'Banheiros químicos para eventos de todos os tamanhos'
+  },
+  {
+    id: 13,
+    url: `${import.meta.env.BASE_URL}grades/tenda.jpeg`,
+    title: 'Tendas para Eventos ao Ar Livre',
+    description: 'Tendas elegantes dispostas em área externa para eventos'
+  },
+  {
+    id: 14,
+    url: `${import.meta.env.BASE_URL}grades/tenda (2).jpeg`,
+    title: 'Tendas em Linha',
+    description: 'Múltiplas tendas organizadas para grandes eventos corporativos'
+  },
+  {
+    id: 15,
+    url: `${import.meta.env.BASE_URL}grades/tenda (3).jpeg`,
+    title: 'Tenda Iluminada Noturna',
+    description: 'Tenda profissional com iluminação para eventos noturnos'
+  },
+  {
+    id: 16,
+    url: `${import.meta.env.BASE_URL}grades/tenda (4).jpeg`,
+    title: 'Tenda Empresarial',
+    description: 'Tenda montada em área corporativa para eventos profissionais'
+  },
+  {
+    id: 17,
+    url: `${import.meta.env.BASE_URL}grades/tenda (5).jpeg`,
+    title: 'Tenda em Área Verde',
+    description: 'Tenda elegante instalada em campo aberto para eventos ao ar livre'
+  },
+  {
+    id: 18,
+    url: `${import.meta.env.BASE_URL}grades/vip.jpeg`,
+    title: 'Banheiros VIP para Eventos',
+    description: 'Linha completa de banheiros VIP de alta qualidade para eventos'
+  },
+  {
+    id: 19,
+    url: `${import.meta.env.BASE_URL}grades/vip (2).jpeg`,
+    title: 'Banheiro VIP Acessível',
+    description: 'Banheiro VIP com rampa de acessibilidade para eventos inclusivos'
+  },
+  {
+    id: 20,
+    url: `${import.meta.env.BASE_URL}grades/vip (3).jpeg`,
+    title: 'Banheiro VIP Premium',
+    description: 'Unidade VIP individual de alto padrão para eventos sofisticados'
   }
 ];
 
